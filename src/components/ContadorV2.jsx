@@ -7,9 +7,7 @@ function ContadorV2() {
     setContadorV2(contadorV2 + 1);
   };
   const decrementar = () => {
-    if (contadorV2 == 0) {
-      return setContadorV2(0);
-    }
+    if (contadorV2 <= 0) return;
     setContadorV2(contadorV2 - 1);
   };
   const resetarValor = () => {
