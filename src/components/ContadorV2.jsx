@@ -6,7 +6,7 @@ function ContadorV2() {
   const incrementar = () => {
     setContadorV2(contadorV2 + 1);
   };
-  const drecrementar = () => {
+  const decrementar = () => {
     setContadorV2(contadorV2 - 1);
   };
 
@@ -14,7 +14,7 @@ function ContadorV2() {
     <div>
       <p>Você clicou {contadorV2} vezes!</p>
       <button onClick={incrementar}> Adicionar 1</button>
-      <button onClick={drecrementar}> Remover 1</button>
+      <button onClick={decrementar}> Remover 1</button>
     </div>
   );
 }
