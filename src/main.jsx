@@ -4,6 +4,7 @@ import BemVindo from "./components/BemVindo.jsx";
 import Saudacao from "./components/Saudacao.jsx";
 import Contador from "./components/Contador.jsx";
 import Contadorr from "./components/ContadorV2.jsx";
+import { FormularioDeMensagem } from "./components/FormularioDeMensagem.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById("root")).render(
     <Saudacao nome="Jullia" />
     <Contador />
     <Contadorr />
+    <FormularioDeMensagem />
   </StrictMode>
 );
